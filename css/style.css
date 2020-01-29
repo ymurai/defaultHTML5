@@ -1,0 +1,47 @@
+
+body {
+    width: 100%;
+    padding: 10px 40px;
+}
+
+#wrap, header, footer {
+    width: 100%;
+}
+
+header nav#headernav ul {
+    list-style: none;
+}
+
+header nav#headernav ul li {
+    text-align: center;
+    display: inline-block;
+}
+   
+header nav#headernav ul li a {
+    text-decoration: none;
+}
+
+#maincontent {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+}
+
+#sidebar nav#sidenav ul {
+    list-style: none;
+}
+
+#sidebar nav#sidenav ul li {
+    margin-left: 20px;
+}
+   
+#sidebar nav#sidenav ul li a {
+}
+
+footer {
+    clear: both;
+}

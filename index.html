@@ -6,74 +6,69 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="css/default.css" rel="stylesheet" media="all">
+  <link href="css/ress.css" rel="stylesheet" media="all">
   <link href="css/style.css" rel="stylesheet" media="all">
   <link href="css/sp.css" rel="stylesheet" type="text/css" media="screen and (max-width: 768px)">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-<body>
+<body id="index">
 
-  <header role="banner">
-
-    <h1><abbr title="HyperText Markup Language 5">HTML5</abbr> Bones</h1>
-
-    <nav role="navigation">
+  <header>
+    <h1>HTML5 sample</h1>
+    <div>
+      <p>Description.</p>
+    </div>
+    <nav id="headernav">
+      <ul>
+        <li><a href="#">navi01</a></li>
+        <li><a href="#">navi02</a></li>
+      </ul>
     </nav>
-
   </header>
 
-  <div class="wrap">
+  <main id="wrap">
 
-    <main role="main">
+    <article id="maincontent">
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          text.
+        </p>
+        <p>
+          text.
+        </p>
+        <p>
+          text.
+        </p>
+      </section>
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          text.
+        </p>
+        <p>
+          text.
+        </p>
+        <p>
+          text.
+        </p>
+      </section>
+    </article>
 
-      <article>
-
-        <header>
-          <h2>Getting Started</h2>
-
-          <nav role="navigation">
-            <ul>
-              <li><a href="#">Introduction</a></li>
-              <li><a href="#">Instructions</a></li>
-            </ul>
-          </nav>
-        </header>
-
-        <section id="introduction">
-
-          <h3>Introduction</h3>
-          <p>Welcome to <abbr title="HyperText Markup Language 5">HTML5</abbr> Bones. This is a template that contains comments to aid you with setting up your <abbr title="HyperText Markup Language 5">HTML5</abbr> document.</p>
-
-        </section>
-
-        <section id="instructions">
-
-          <h3>Instructions</h3>
-          <ol>
-            <li>Read the comments in this template</li>
-            <li>Decide how you think your content may fit into the template</li>
-            <li>Start building your document</li>
-          </ol>
-
-        </section>
-
-      </article>
-
-    </main>
-
-    <aside role="complementary">
-
-      <h3>Did you know?</h3>
-      <p>The section and section elements cause a lot of confusion when people are trying to decide how and when to use them. The section: <a href="http://www.iandevlin.com/blog/2011/04/html5/html5-section-or-section">section or section?</a> might help you choose.</p>
-
+    <aside id="sidebar">
+      <h3>sub contents</h3>
+      <nav id="sidenav">
+        <ul>
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#">Instructions</a></li>
+        </ul>
+      </nav>      
     </aside>
 
-  </div>
+  </main>
 
-  <footer role="contentinfo">
-
-    <p>Copyright &copy; <time datetime="2016">2016</time></p>
-
+  <footer>
+    <address>Copyright &copy; Sample, Allright Reserved.</address>
   </footer>
 
 </body>
